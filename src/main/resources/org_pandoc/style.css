@@ -1,0 +1,28 @@
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+   { margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #f8f8f8 }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #f0f0f0; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #f8f8f8; }
+pre.sourceCode { background-color: #f8f8f8; line-height: 125% }
+td.nums pre { background-color: #f0f0f0; line-height: 125% }
+pre.sourceCode {
+  pdding-left:10px !important;
+}
+code.sourceCode {
+  background-color:transparent !important;
+  padding : 0 !important;
+}
+a.sourceLine { color: #333; }
+code.sourceCode span.kw { color: #d73a49; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #6f42c1 } /* Keyword.Type */
+code.sourceCode span.dv { color: #005cc5 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #005cc5 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #005cc5 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #009a06 } /* Literal.String.Char */
+code.sourceCode span.st { color: #006606 } /* Literal.String */
+code.sourceCode span.co { color: #666666; font-style: italic } /* Comment */
+code.sourceCode span.ot { color: #8f5902 } /* Comment.Preproc */
+code.sourceCode span.al { color: #ef2929 } /* Generic.Error */
+code.sourceCode span.fu { color: #6f42c1 } /* Name.Function */
+code.sourceCode span.re { }
+code.sourceCode span.er { color: #a40000; border: 1px solid #ef2929 } /* Error */
