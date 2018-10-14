@@ -20,7 +20,7 @@ class PandocRenderer extends Renderer{
             |})();</script>""".stripMargin +
       org2html(request.fileContent))
   }
-  val regex = """<img +src *= *"([^">]+)" */?>""".r
+  val regex = """<img +src *= *"([^">]+)"[^>]*/?>""".r
   def org2html(content:String): String ={
     try {
       val builder = new ProcessBuilder("pandoc", "-f", "org", "-t", "html5")
@@ -47,7 +47,6 @@ class PandocRenderer extends Renderer{
             val ed  = m.end(1)
             sb.append(s.substring(i,ed)).append("?raw=true")
             i = ed
-            println(i)
           })
           if(i == 0)  s
           else {
