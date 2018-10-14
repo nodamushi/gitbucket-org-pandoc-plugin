@@ -7,7 +7,7 @@ class Plugin extends gitbucket.core.plugin.Plugin {
   override val pluginName: String = "org-mode Render Plugin with Pandoc"
   override val description: String = "Renders org-mode with pandoc"
   override val versions: List[Version] = List(
-    new Version("1.0.0")
+    new Version("1.0.0"),new Version("1.0.1")
   )
   override val assetsMappings: Seq[(String, String)] = Seq("/org_pandoc"->"/org_pandoc")
   override val renderers: Seq[(String, Renderer)] = Seq("org"->new PandocRenderer)

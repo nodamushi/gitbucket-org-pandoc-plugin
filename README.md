@@ -8,7 +8,7 @@ This plugin use [Pandoc](https://pandoc.org/) to convert org-mode.
 
 Plugin version | GitBucket version
 :--------------|:--------------------
-1.0.0          | 4.29.x 
+1.0.x          | 4.29.x
 
 
 
